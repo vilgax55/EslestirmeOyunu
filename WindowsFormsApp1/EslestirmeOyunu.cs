@@ -26,10 +26,13 @@ namespace WindowsFormsApp1
         {
             icons = new List<string>()
             {
-                "r","r","Y","Y",
-                "u","u","d","d",
-                "h","h","x","x",
-                "j","j","m","m",
+                "w","w","y","y",
+                "q","q","d","d",
+                "h","h","t","t",
+                "b","b","m","m",
+                "a","a","s","s",
+                "p","p","c","c",
+
             };
 
             iconYerlestir();
@@ -52,37 +55,6 @@ namespace WindowsFormsApp1
                     iconLabel.ForeColor = iconLabel.BackColor; // İkonu gizle
                     icons.RemoveAt(randomIndex);
                 }
-            }
-        }
-
-        private void label_Click(object sender, EventArgs e)
-        {
-            if (timer1.Enabled)
-                return;
-
-            Label clickedLabel = sender as Label;
-
-            if (clickedLabel != null && clickedLabel.ForeColor == clickedLabel.BackColor)
-            {
-                if (pic_1 == null)
-                {
-                    pic_1 = clickedLabel;
-                    pic_1.ForeColor = Color.Black;
-                    return;
-                }
-
-                pic_2 = clickedLabel;
-                pic_2.ForeColor = Color.Black;
-
-                if (pic_1.Text == pic_2.Text)
-                {
-                    pic_1 = null;
-                    pic_2 = null;
-                    CheckForCompletion();
-                    return;
-                }
-
-                timer1.Start();
             }
         }
 
@@ -120,6 +92,37 @@ namespace WindowsFormsApp1
         private void buttonNewGame_Click(object sender, EventArgs e)
         {
             StartNewGame();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            if (timer1.Enabled)
+                return;
+
+            Label clickedLabel = sender as Label;
+
+            if (clickedLabel != null && clickedLabel.ForeColor == clickedLabel.BackColor)
+            {
+                if (pic_1 == null)
+                {
+                    pic_1 = clickedLabel;
+                    pic_1.ForeColor = Color.Black;
+                    return;
+                }
+
+                pic_2 = clickedLabel;
+                pic_2.ForeColor = Color.Black;
+
+                if (pic_1.Text == pic_2.Text)
+                {
+                    pic_1 = null;
+                    pic_2 = null;
+                    CheckForCompletion();
+                    return;
+                }
+
+                timer1.Start();
+            }
         }
     }
 }

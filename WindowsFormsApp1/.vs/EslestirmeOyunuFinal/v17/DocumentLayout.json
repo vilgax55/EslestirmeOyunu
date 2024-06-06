@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\AHMET AYHAN\\Desktop\\Gorsel Programlama Final Odevi\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E78F5F9-5288-49E7-9BA2-BDBDD51F0FA1}|EslestirmeOyunu.csproj|c:\\users\\ahmet ayhan\\desktop\\gorsel programlama final odevi\\windowsformsapp1\\eslestirmeoyunu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E78F5F9-5288-49E7-9BA2-BDBDD51F0FA1}|EslestirmeOyunu.csproj|C:\\Users\\AHMET AYHAN\\Desktop\\Gorsel Programlama Final Odevi\\WindowsFormsApp1\\eslestirmeoyunu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E78F5F9-5288-49E7-9BA2-BDBDD51F0FA1}|EslestirmeOyunu.csproj|solutionrelative:eslestirmeoyunu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E78F5F9-5288-49E7-9BA2-BDBDD51F0FA1}|EslestirmeOyunu.csproj|C:\\Users\\AHMET AYHAN\\Desktop\\Gorsel Programlama Final Odevi\\WindowsFormsApp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E78F5F9-5288-49E7-9BA2-BDBDD51F0FA1}|EslestirmeOyunu.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E78F5F9-5288-49E7-9BA2-BDBDD51F0FA1}|EslestirmeOyunu.csproj|c:\\users\\ahmet ayhan\\desktop\\gorsel programlama final odevi\\windowsformsapp1\\eslestirmeoyunu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3E78F5F9-5288-49E7-9BA2-BDBDD51F0FA1}|EslestirmeOyunu.csproj|solutionrelative:eslestirmeoyunu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,23 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\AHMET AYHAN\\Desktop\\Gorsel Programlama Final Odevi\\WindowsFormsApp1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\AHMET AYHAN\\Desktop\\Gorsel Programlama Final Odevi\\WindowsFormsApp1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T15:22:00.872Z"
             },
             {
               "$type": "Document",
@@ -44,10 +32,22 @@
               "RelativeDocumentMoniker": "EslestirmeOyunu.cs",
               "ToolTip": "C:\\Users\\AHMET AYHAN\\Desktop\\Gorsel Programlama Final Odevi\\WindowsFormsApp1\\EslestirmeOyunu.cs",
               "RelativeToolTip": "EslestirmeOyunu.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAswH0AAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAA1wCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T13:59:53.652Z",
+              "WhenOpened": "2024-06-06T11:47:28.391Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EslestirmeOyunu.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\AHMET AYHAN\\Desktop\\Gorsel Programlama Final Odevi\\WindowsFormsApp1\\EslestirmeOyunu.cs",
+              "RelativeDocumentMoniker": "EslestirmeOyunu.cs",
+              "ToolTip": "C:\\Users\\AHMET AYHAN\\Desktop\\Gorsel Programlama Final Odevi\\WindowsFormsApp1\\EslestirmeOyunu.cs [Tasar\u0131m]",
+              "RelativeToolTip": "EslestirmeOyunu.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T11:45:46.932Z",
+              "EditorCaption": " [Tasar\u0131m]"
             }
           ]
         }
